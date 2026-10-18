@@ -1,3 +1,12 @@
+# Çiçekcim
+
+Tek sayfalık çiçekçi sitesi: sepet oluşturulur, sipariş WhatsApp mesajı olarak gönderilir.
+
+**🌐 Canlı demo: https://muhammedozkul.github.io/cicekcim/**
+(Demo sitede gerçek numara yok; WhatsApp mesajı hazır açılır, kime gideceğini sen seçersin.)
+
+---
+
 # Astro Starter Kit: Minimal
 
 ```sh
@@ -10,7 +19,7 @@ npm create astro@latest -- --template minimal
 
 Sipariş numarası koda yazılmaz. `.env.example` dosyasını `.env` olarak kopyala ve
 `PUBLIC_WHATSAPP_NUMBER` değerine kendi numaranı yaz (ülke koduyla, başında 0 olmadan,
-ör. `905551234567`). `.env` git'e eklenmez. Numara yoksa build hata verir.
+ör. `905XXXXXXXXX`) ya da denemek için `demo` yaz. `.env` git'e eklenmez. Numara yoksa build hata verir.
 
 ## 🚀 Project Structure
 

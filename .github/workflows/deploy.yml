@@ -26,7 +26,7 @@ jobs:
           cache: npm
       - run: npm ci
       # Numara depo değişkeninden gelir (Settings → Secrets and variables → Actions → Variables).
-      # Yayındaki sitede gerçek değil, sahte bir numara kullanılıyor.
+      # Yayındaki sitede değer "demo": gerçek numara yok, ekranda 0555 *** ** ** görünür.
       - run: npx astro build --site https://muhammedozkul.github.io --base /cicekcim
         env:
           PUBLIC_WHATSAPP_NUMBER: ${{ vars.PUBLIC_WHATSAPP_NUMBER }}
